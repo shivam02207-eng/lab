@@ -1,13 +1,13 @@
 # Node class
 class Node:
-    def _init_(self, data):
+    def __init__(self, data):
         self.data = data
         self.next = None
 
 
 # Singly Linked List class
 class LinkedList:
-    def _init_(self):
+    def __init__(self):
         self.head = None
 
     # Insert at the beginning
@@ -52,7 +52,7 @@ class LinkedList:
 
 
 # Example usage
-if _name_ == "_main_":
+if __name__ == "__main__":
     ll = LinkedList()
 
     # Inserting nodes
